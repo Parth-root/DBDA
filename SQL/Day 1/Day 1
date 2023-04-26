@@ -1,0 +1,4 @@
+All sql queries must end with a ';'
+If you press enter without ending with a ';', then it will prompt you to write the rest of the query
+
+String -> varchar[size]
