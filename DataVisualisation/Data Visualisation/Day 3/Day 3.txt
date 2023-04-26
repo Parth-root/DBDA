@@ -1,0 +1,35 @@
+PMT - Payment function. Used to calculate payment for a loan
+    - rate, nper, pv (nper: Number of payments, pv: Payment value)
+
+For EMI calaculation, take rate and nper(tenure) in months
+For FD calaculation, take rate in years
+
+FV - Future value
+   - rate, nper, pmt, pv
+   - pmt should be 0
+   - pv should be given as -ve
+
+
+
+What if Analysis
+----------------- 
+- It's a form of Perspective Analysis
+- Goal Seek: Set the value of one particular cell to a desired value by changing the value in another cell
+- Scenario Manager: To set the values of multiple cells at the same time
+
+
+Prediction
+----------
+Forecasting: It's done on time series data (Eg: Simple moving average-SMA) 
+Prediction: Can be done for numeric or categorical variables
+
+X axis Variable - Independant Variable
+Y axis Variable - Dependant/Response Variable
+
+Prediction is always done for dependant variable
+Prediction is performed by using the line equation of the form y=mx+c [m is slope(coefficient), c is intercept]
+
+csv files are not excel files. They are comma separated values.
+
+
+ 

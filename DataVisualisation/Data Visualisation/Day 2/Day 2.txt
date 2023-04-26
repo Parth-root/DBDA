@@ -1,0 +1,28 @@
+Validate two conditions using AND function
+
+Finding outliers
+
+Coefficient of Correlation (R)		-> -1 to +1
+Coefficient of Determination (R^2)	-> 0 to 1
+
+R indicates whether the correlation is +ve, -ve or if there exists no correlation between two variables.
+R^2 indicates the strength of the relationship between two numeric variables. Value close to 1 is always preferred.
+
+Bar Graph: To represent total sum or average
+Histogram: 
+	   - Total count (Shows number of values in a range[bin])
+	   - Size of bin will remain equal throughout the graph
+	   - One element can exist in only one bin at a time
+Line Chart: It's exclusively used with time series data
+
+Data consolidation - Combining data from different soruces (here, sheets)
+While combining different sheets make sure that the spellings are correct
+
+
+
+Pivot Tables
+------------
+- Based on the principle of aggregation, i.e., going from a detailed form of data to a summarized form of data. 
+- For building a pivot table, atleast one categorical(qualitative) data must be present
+- Full dates are considered as qualitative data and not quantitaive data
+- The only thing you can do with categorical data is to take count of that data

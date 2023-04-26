@@ -1,0 +1,38 @@
+Dashboard
+---------
+Floating: Element can be moved anywhere within the dashboard
+Tile: Element will have a fixed position
+Container: A place holder where you can add multiple sheets
+
+- It's a tool used to combine two or sheets into a single viewing element
+- Dashboard can be created without using a conatiner also
+
+Filter vs Highlight:
+	- Filter is used to remove elements from the table
+	- Highlight will not remove but will disable all the elments not in the primary key-foregin key relationship
+
+Url
+---
+- In Dashboard Actions, within URL Target select Web Page Object option
+- Insert only the dimension inside the URL link and not the whole path information
+
+Example: Superstore_4 -> State Information Dashboard 14
+
+	- https://en.m.wikipedia.org/wiki/Texas
+	- https://en.m.wikipedia.org/wiki/California
+
+
+
+Story
+-----
+- It's a tool used for presenting your tableau works
+- You can create a Dashboard using Worksheets but you can't create a Dashboard using a Story
+- You can create a Story using Dashboards
+- Displaying Worksheets might not always work in a Story
+- Dashboards are represented using a + symbol
+- Sheets are represented using a grpah symbol
+
+
+
+
+

@@ -1,0 +1,77 @@
+Measure - A numeric value(with/without decimal) on which statistics can be performed to get meaningful result. Primary key cannot be a measure
+Eg: Profit, sales, no. of employees etc.
+
+Dimension - Any string, numeric(primary key) or date value that is taken to group measure 
+Eg: Market, city, segment, birth date etc.
+
+Important dimensions: DoB, Employee DoJ
+Age and survey rating can be taken as either a dimension or measure depending on the scenario  
+
+Only math function possible on dimensions is COUNT
+
+The combination of both dimension and visualization is called is called visulaization
+Eg: Sales by state, profit by category
+ 
+
+
+Global Superstore
+-----------------
+Measures: Sales, Quantity, Discount, Prift, Shipping cost (5 columns)
+Rows=51291
+Columns=24
+
+
+
+Tableau
+-------
+The 3 major components of tableau are:
+1. Worksheet
+2. Dashboard
+3. Story
+
+Joining multiple tables:
+1) JOIN(Pre 2020) - Data is joined from tables before visualization
+   Types of Join:
+	1. Equi join(Inner join)
+	2. Left outer join
+	3. Right outer join
+	4. Full outer join
+2) Relationship(Post 2020) - Data is joined only after visualization starts
+
+Symbols:
+# - Numeric
+Abc - Alphanumeric/String
+Calender Icon - Date field
+Globe Icon - Geographic field
+
+Color Scheme:
+Blue - Dimension
+Green - Measure
+
+Sorting on colums:
+1. Ascending
+2. Descending
+3. Default(Data source)
+
+There are 9 sections in tableau:
+1. Dimensions
+2. Measures
+3. Pages
+4. Filters
+5. Marks
+6. Colums
+7. Row
+8. Canvas
+9. Show Me
+
+The only graph that doesn't need any dimensions is histogram
+
+Fields given in italics are those fields provided by tableau
+
+There are 4 types of layouts:
+1. Sandard
+2. Fit width
+3. Fit height (Used when you want to stretch the rows to cover your entire screen)
+4. Entire view
+
+To make a proper worksheet, pick the dimension with the least unique values as a column and that with many values as rows

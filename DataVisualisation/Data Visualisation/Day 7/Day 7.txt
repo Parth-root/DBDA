@@ -1,0 +1,55 @@
+Filters
+-------
+1. Data sources
+2. Dimension
+3. Measures
+4. Date
+5. Top/Bottom 
+6. Context
+
+- The first filter is applied even before the visualization process begins. This is done in the Data Sources tab
+- All the other filters can be done by dragging the respective variables onto the filter card and then selecting the appropriate filter as per requirement
+- Paramter is technique in tableau to create dynamic values
+
+
+
+Calculated Fields
+-----------------
+- This technique is used to make our own custom functions
+- It's represented by the symbol '=#' in the measures field
+- Orange color is used to represent a field
+
+SUM -> To find the total sum of a particular variable
+COUNTD -> To count distinct number of items
+
+
+
+Parameters
+----------
+1. Display 
+2. Value
+
+- Parameters are display in purple color in the Calculated Field
+
+
+
+Sets
+----
+- It's used to group a set of values based on some criteria
+- It woks as filter with two options - IN & OUT
+- Different sets can be combined together to form a new set
+
+
+
+Analytics
+---------
+1. Constant Line:
+	- Multiple lines can be created with different values
+	- Line never changes position
+	- Used to compare values with a fixed value
+2. Average Line:
+	- Only 1 line exists per chart
+	- Line changes with selection of variables	
+3. Forecast
+4. Cluster
+5. Trend Line

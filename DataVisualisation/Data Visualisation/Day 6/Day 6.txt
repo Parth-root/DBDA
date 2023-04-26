@@ -1,0 +1,41 @@
+Area Chart
+----------
+It's a variation of line chart except that there is some shading below the line. Works in both discrete and continuous lines.
+
+
+
+Tree Map
+--------
+- Used to reprsent graphs using primary key:foregin key relationship 
+- It's exactly same as a bubble graph, except that the dimensions are shown as rectangles
+- And just like bubble charts it can't handle negative data
+- Size and colour of rectangles are proportional to the value
+- Tree maps doesn't support sorting 
+
+
+Scatter Plot
+------------
+It's used to compare two variables with numeric values, typically with decimal
+
+1. Without Aggregation
+2. With Aggregation
+
+
+
+Histogram
+---------
+Example: Superstore_3 -> Sales Histogram (Bin size 500)
+
+	Bin size = 500
+	Bin1 = 0 to 499
+	There are 44538(86%) records having sales value between 0 to 499 
+	Bin2 = 500 to 999
+	There are 4126(8%) records having sales value between 500 to 999
+
+
+
+Bullet Graph vs Dual Line/Combination Graph
+--------------------------------------
+- The main difference is that for dual line/combo graph the date field is mandatory.
+- Bullet grpah is used to compare actual vs expected values of non data variables while dual line/combo is used in time series analysis. 
+

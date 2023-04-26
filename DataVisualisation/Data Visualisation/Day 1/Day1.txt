@@ -1,0 +1,42 @@
+How to calculate total based on single condition? - SUMIF
+
+Calculate total profit for those records whose profit is >=100? - SUMIF
+
+How to calculate total based on multiple conditions? - SUMIFS
+
+How to calculate average of values in a range? - AVERAGE
+
+How to calculate average for a single condition? - AVERAGEIF
+
+How to calculate average for multiple conditions? - AVERAGEIFS
+
+How to calculate count of values in a column? - COUNT
+
+How to count number of misssing values in a column? - COUNTBLANK
+
+COUNTIF
+
+IF
+
+IF(Embedded)
+
+
+
+LOOKUP Functions
+-----------------
+
+1. VLOOKUP (Vertical)
+2. HLOOKUP (Horizontal)
+
+
+Absolute vs Relative Reference
+-------------------------------
+Use $ symbol to change from relative to absolute
+
+
+Correlation
+-----------
+- The scale by which the value of a variable changes with respect to the change in value of another variable
+- It can be either positive or negative
+- value can range from +1 to -1
+- +1 means perfect postive corelation and -1 means perfect negative corelation. 0 means no corelation

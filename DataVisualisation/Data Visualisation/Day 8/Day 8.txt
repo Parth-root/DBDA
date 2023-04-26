@@ -1,0 +1,66 @@
+Trend Line
+----------
+- R^2 value closer to 1 is preferable
+
+Example: Superstore_4 -> Sales vs Profit by Market (Trend Line)
+
+	Africa:	Profit = 0.248583*Sales + -23.1004
+	APAC: Profit = 0.162542*Sales + -13.3462
+	Canada: Profit = 0.31346*Sales + -8.2342
+	EMEA: Profit = 0.161284*Sales + -17.1253
+	EU: Profit = 0.173187*Sales + -13.6008
+	LATAM: Profit = 0.148977*Sales + -9.79541
+	US: Profit = 0.180067*Sales + -12.7329
+	
+	- Inference: If the company achieves sales of $X then the company will earn a profit of <result of above equation with sales = X> 
+
+
+
+Forecast
+--------
+- Date field and Line chart are compulsory for forcast
+
+
+
+Clustering
+----------
+- Grouping together similar data into specific groups
+- Example: K means clustering
+- It's achieved using a scatter plot
+
+
+
+Table Calculations
+------------------
+1. Running total
+2. Difference - Typically used with time series data
+3. Percent difference
+4. Rank
+5. Percentage of total - Typically used with pie chart
+6. Moving average - It's exclusive to time series analysis
+
+Table calculations involves all elements within the table
+Pane is a panel or a particular section within the table. Pane calculations involves the elements within that pane only.
+
+Attribute - If there are multiple records with the same value, then it will show each record individually
+
+
+
+Data Blending
+-------------
+1. Primary Data Source
+2. Secondary Data Source
+
+- To combine data from different data sources, the data present in each different file should have some relation between them, i.e., some common column should be present between them
+- Starting point of visualization should start from some filed present in the primary data source
+- There can be only one primary data source
+- Primary source is shown with a blue color and secondary source is shown with an orange color
+- Blending only allows one type of joining which is Left-Outter Join
+
+
+
+Advanced Charts
+---------------
+1. Word Cloud
+2. Spark Lines
+3. Motion Chart

@@ -1,0 +1,32 @@
+Colors
+------
+Colors baased on dimension are called Discrete Colors
+Colors baased on measures are called Continuous Colors
+
+
+
+Charts
+------
+Pie chart - Always used with percentages. Can handle negative values. Not generally used when more than 6 variables are present (elsewise, it becomes cluttered)
+
+Bubble chart - Never used with percentages. Cannot handle negative values
+
+Bar charts:
+	1. Nornal - Used when there is only one dimension
+
+	2. Side by side - Used when number of values in both dimensions are less
+			  Total bars created = No. of values in dimension 1 * No. of values in dimension 2
+			  Dimensions must be kept in columns
+	3. Stacked bar -  Used when number of values in either dimension are high 
+
+			  The bar chart is started/created with the dimension having more values and then the other dimension is added on top of that
+			  100% stacked bar is used to show % values on the bar
+
+Line charts:
+	1. Discrete Line (Blue) - Used for comparison between different dimensions
+
+	2. Continuous Line (Green) - Used for finding trends (forcating)
+
+	Note: Alaways place date field on column as line charts are always represented horizontally
+
+	Time Series Data involves Year/QuarterMonth/Week/Day wise data
