@@ -1,0 +1,110 @@
+delimiter &&
+create procedure mycursor()
+     begin
+     --  variables_declaration
+     declare r int;
+     declare n varchar(10);
+     declare m float;
+     declare done int default 0;
+     --  cusrsor_declaration
+     declare cur1 cursor for select roll,name,marks from student
+     where marks >=60;
+     --  exception_handler_for_end_of_result_set
+     declare continue handler for not found set done=1;
+     --  opan_the_cursor
+     open cur1;
+     label:loop
+     --  fetch_cur1 into r,n,m;
+     if done=1 then leave label;
+     end if;
+     insert into backup values(r,n,m);
+     end loop;
+     close cur1;
+     end &&
+
+
+delimiter &&
+create trigger before_insert_student
+before insert on student for each row
+begin
+set new.marks=new.marks+1.05;
+end &&
+
+
+
+delimiter &&
+create trigger before_insert_student
+before insert on student for each row
+begin
+
+set new.marks=new.marks+1.05;
+end &&
+
+
+
+
+
+
+delimiter &&
+create trigger before_insert_student
+before insert on student for each row
+begin
+if(new.marks < 0 or new.marks > 100) then
+set new.marks=40;
+end if;
+end &&
+delimiter ;
+
+
+
+
+delimiter &&
+create trigger after_insert_product1
+after insert on product1 for each row
+begin
+insert into product2 values (new.pro_id,new.price*1.18,new.price*1.18*new.qun);
+end &&
+delimiter ;
+
+delimiter &&
+create trigger after_insert_student_log_set
+after update on student for each row
+begin
+insert into student_log values (user(),now(),concat('old marks =',old.marks,'new marks = ',new.marks));
+end &&
+delimiter ;
+
+delimiter &&
+create trigger after_insert_student_log_set
+after update on student for each row
+begin
+insert into student_log values (user(),now(),concat('old marks =',old.marks,'new marks = ',new.marks,));
+end &&
+delimiter ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
