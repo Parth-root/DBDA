@@ -61,6 +61,7 @@ public class Test {
 								for(Book b:Cart) {
 									cost=cost+b.getPrice();
 								}
+								
 								System.out.println("Total cost of all book:  "+ cost);
 								break;
 							case 5:
