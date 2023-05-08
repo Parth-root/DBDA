@@ -2,3 +2,5 @@ all token is deleteed this s final
 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
 
 sudo ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done  //change ext to anything to rename in other order
+
+i915.enable_psr=0
