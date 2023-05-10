@@ -1,0 +1,364 @@
+  1  python3 --version
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  cd Desktop/
+    5  ls
+    6  chmod 777 a.sh 
+    7  sudo a.sh
+    8  sudo ./a.sh
+    9  env
+   10  env | grep "JAV*"
+   11  env | grep "J*"
+   12  java -version
+   13  nodetool status
+   14  sudo systemctl start cassandra
+   15  sudo systemctl status cassandra
+   16  nodetool status
+   17  cqlsh
+   18  exit
+   19  git -v
+   20  clear
+   21  sudo apt install i3
+   22  sudo apt install i3 kitty git curl 
+   23  ls
+   24  mkdir git_repos cd $_
+   25  mkdir git_repos && cd $_
+   26  git clone https://github.com/AnupPainuly/dotfiles
+   27  ls
+   28  sudo apt install stow
+   29  sudo apt install polybar
+   30  clear
+   31  ls
+   32  ls -al
+   33  exit
+   34  cd .config/
+   35  cd i3/
+   36  ls
+   37  ls -al
+   38  ls
+   39  ls -al
+   40  ls
+   41  vim config
+   42  alias nvim='vim'
+   43  vim config 
+   44  alias vim='nvim'
+   45  vim config 
+   46  nvim config 
+   47  vim config 
+   48  nvim config 
+   49  exit
+   50  cd .config/
+   51  ls
+   52  cd kitty/
+   53  ls
+   54  nvim kitty.conf 
+   55  exit
+   56  ls -al
+   57  cd git_repos/
+   58  ls
+   59  cd dotfiles/
+   60  ls
+   61  stow -nvSt ~ window-manager/
+   62  stow --adopt -nvSt ~ window-manager/
+   63  stow --adopt -vSt ~ window-manager/
+   64  ls
+   65  cd
+   66  cd .config/
+   67  ls
+   68  cd i3/
+   69  ls
+   70  vim config 
+   71  sudo apt-get install ninja-build gettext cmake unzip curl
+   72  cd 
+   73  cd git_repos/
+   74  ls
+   75  git clone https://github.com/neovim/neovim
+   76  nvim
+   77  history 
+   78  cd 
+   79  cd .config/i3/
+   80  ls
+   81  vim config 
+   82  nvim config 
+   83  clear
+   84  ls
+   85  cd
+   86  clear
+   87  ls
+   88  cd git_repos/
+   89  ls
+   90  cd dotfiles/
+   91  ls
+   92  clear
+   93  stow -nvSt ~ window-manager/
+   94  stow --adopt -nvSt ~ window-manager/
+   95  stow --adopt -vSt ~ window-manager/
+   96  cd
+   97  cler
+   98  clear
+   99  ls
+  100  cd .config/
+  101  ls
+  102  cd i3/
+  103  ls
+  104  ls -al
+  105  ls
+  106  vim config 
+  107  nvim config 
+  108  cd
+  109  cd git_repos/
+  110  ls
+  111  cd dotfiles/
+  112  ls
+  113  cd window-manager/.config/i3/
+  114  ls
+  115  ls -al
+  116  nvim config
+  117  cd .
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd .
+  123  cd ..
+  124  ls
+  125  clear
+  126  ls
+  127  stow -nvDt ~ window-manager/
+  128  stow -vDt ~ window-manager/
+  129  cd ..
+  130  ls
+  131  cd dotfiles/
+  132  git pull
+  133  ls
+  134  cd ..
+  135  ls
+  136  rm -rf dotfiles/
+  137  ls
+  138  git clone https://github.com/AnupPainuly/dotfiles
+  139  clear
+  140  ls
+  141  cd dotfiles/
+  142  ls
+  143  cd window-manager/
+  144  ls
+  145  clear
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd bash
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd ..
+  154  ls
+  155  rm -rf dotfiles/
+  156  ls
+  157  git clone https://github.com/AnupPainuly/.dotfiles
+  158  ls
+  159  clear
+  160  ls
+  161  ls -al
+  162  cd .dotfiles/
+  163  ls
+  164  cd window-manager/
+  165  ls
+  166  ls -al
+  167  cd .config/
+  168  ls
+  169  cd i3/
+  170  ls
+  171  vim config 
+  172  ls
+  173  nvim config 
+  174  clear
+  175  ls
+  176  cd ..
+  177  ls
+  178  clear
+  179  ls
+  180  clear
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  ls
+  185  stow --adopt -nvSt ~ window-manager/
+  186  stow --adopt -vSt ~ window-manager/
+  187  ls -al
+  188  stow --adopt -vSt ~ window-manager/
+  189  clear
+  190  ls
+  191  stow -nvSt ~ kitty/
+  192  stow -vSt ~ kitty/
+  193  cd ..
+  194  cd
+  195  ls
+  196  cd git_repos/
+  197  ls
+  198  ls -a
+  199  git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+  200  exit
+  201  ls
+  202  cd .config/kitty/
+  203  ls
+  204  nvim kitty.conf 
+  205  ls
+  206  cd kitty-themes/
+  207  ls
+  208  cd themes/
+  209  ls
+  210  cd 
+  211  ls
+  212  cd .config/
+  213  cd kitty/
+  214  ln -s ./kitty-themes/themes/Afterglow.conf ~/.config/kitty/theme.conf
+  215  ls
+  216  cd ..
+  217  ls
+  218  cd 
+  219  ls
+  220  cd git_repos/
+  221  ls
+  222  cd .dotfiles/
+  223  ls
+  224  stow -nvSt ~ polybar/ scripts/ 
+  225  stow -vSt ~ polybar/ scripts/ 
+  226  ls
+  227  cd
+  228  cd bin
+  229  l
+  230  ls -al
+  231  cd 
+  232  cd .config/polybar
+  233  ls
+  234  polybar
+  235  ls
+  236  mv config.ini config
+  237  polybar
+  238  clera
+  239  clear
+  240  ls
+  241  ./launch.sh 
+  242  xrandr
+  243  ls
+  244  vim config 
+  245  nvim config 
+  246  clear
+  247  ls
+  248  ./launch.sh 
+  249  vim .bashrc
+  250  nvim .bashrc 
+  251  exec bash
+  252  xrandr
+  253  sudo apt install lm-sensors
+  254  clear
+  255  sudo apt install rofi
+  256  ls
+  257  mkdir .fonts
+  258  ls
+  259  ls -al
+  260  clear
+  261  ls
+  262  cd Downloads/
+  263  ls
+  264  cp JetBrainsMono.zip ~/.fonts/
+  265  ls
+  266  cd
+  267  cd .fonts/
+  268  ls
+  269  unzip JetBrainsMono.zip 
+  270  ls
+  271  clear
+  272  ls
+  273  rm JetBrainsMono.zip 
+  274  ls
+  275  vim readme.md 
+  276  nvim readme.md 
+  277  mkdir Jetbrains
+  278  ls
+  279  rm -rf Jetbrains/
+  280  ls
+  281  pwd
+  282  cd ..
+  283  mmkdir jetbrains
+  284  mkdir jetbrains
+  285  cd .fonts/
+  286  ls
+  287  mkdir -p jetbrains && mv * $_
+  288  mkdir -p jetbrains && mv Jetbrains* $_
+  289  l
+  290  ls
+  291  cd jetbrains/
+  292  ls
+  293  cd ..
+  294  ls
+  295  clear
+  296  ls
+  297  fc-cache -f
+  298  fc-cache
+  299  ls
+  300  fc-cache -fv
+  301  curl -sS https://starship.rs/install.sh | sh
+  302  cd
+  303  clear
+  304  cd git_repos/
+  305  ls
+  306  cd .dotfiles/
+  307  ls
+  308  cd bash/
+  309  ls
+  310  ls -al
+  311  vim .bashrc 
+  312  nvim .bashrc 
+  313  exit
+  314  cd bin
+  315  ls
+  316  ./autotiling 
+  317  pip3
+  318  sudo apt install python3-pip
+  319  pip3 install i3pc
+  320  pip3 install i3ipc
+  321  ./autotiling 
+  322  exit
+  323  clear
+  324  sudo apt info i3pc
+  325  sudo apt info i3ipc
+  326  sudo snap install brave
+  327  sudo apt install nitrogen
+  328  rofi-theme-selector
+  329  exit
+  330  sudo apt instll gpick
+  331  sudo apt install gpick
+  332  cd git_repos/
+  333  ls
+  334  ls -al
+  335  cd .dotfiles/
+  336  ls
+  337  cd compositor/
+  338  ls
+  339  ls -al
+  340  cd .config/
+  341  ls
+  342  cd picom/
+  343  ls
+  344  nvim picom.conf 
+  345  cd ../../
+  346  ls
+  347  cd ../
+  348  ls
+  349  cd hbase/
+  350  ls
+  351  ls -al
+  352  cd ..
+  353  ls
+  354  sudo apt install fzf
+  355  fzf
+  356  d
+  357  fzf
+  358  cqlsh
+  359  his
+  360  history 
+  361  history | uniq
+  362  history | sort | uniq
+  363  history 
+  
